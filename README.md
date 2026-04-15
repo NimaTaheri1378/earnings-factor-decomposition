@@ -236,6 +236,22 @@ If you use this code or build on this work, please cite:
 }
 ```
 
+## Citation
+
+If you use this code or build on this work, please cite:
+
+> Taheri Hosseinkhani, Nima. "How Much of Earnings Information is Factor Compensation?" (2026). Available at SSRN: [https://papers.ssrn.com/abstract=6440878](https://papers.ssrn.com/abstract=6440878)
+
+```bibtex
+@article{taheri2026earnings,
+  title={How Much of Earnings Information is Factor Compensation?},
+  author={Taheri Hosseinkhani, Nima},
+  year={2026},
+  journal={SSRN Working Paper},
+  note={Available at \url{https://papers.ssrn.com/abstract=6440878}}
+}
+```
+
 ## License
 
 MIT
