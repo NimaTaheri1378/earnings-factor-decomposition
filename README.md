@@ -220,6 +220,22 @@ Prompts for WRDS credentials once. First run pulls ~15 minutes of data (cached f
 - Hong, H., Lim, T. & Stein, J.C. (2000). Bad news travels slowly. *JF*, 55(1), 265–295.
 - Jegadeesh, N. & Titman, S. (1993). Returns to buying winners. *JF*, 48(1), 65–91.
 
+## Citation
+
+If you use this code or build on this work, please cite:
+
+> Taheri Hosseinkhani, Nima. "How Much of Earnings Information is Factor Compensation?" (2026). Available at SSRN: [https://papers.ssrn.com/abstract=6440878](https://papers.ssrn.com/abstract=6440878)
+
+```bibtex
+@article{taheri2026earnings,
+  title={How Much of Earnings Information is Factor Compensation?},
+  author={Taheri Hosseinkhani, Nima},
+  year={2026},
+  journal={SSRN Working Paper},
+  note={Available at \url{https://papers.ssrn.com/abstract=6440878}}
+}
+```
+
 ## License
 
 MIT
