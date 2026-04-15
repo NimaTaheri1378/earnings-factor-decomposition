@@ -1,0 +1,35 @@
+# Data — never commit WRDS/CRSP/IBES/TAQ data (license violation)
+data/
+*.parquet
+*.csv
+!outputs/tables/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_metadata
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+.env
+.pgpass
+*.credentials

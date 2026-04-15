@@ -1,0 +1,7 @@
+Strategy,Cum. Return (%),Ann. Return (%),Ann. Vol (%),Sharpe,Max DD (%),Avg Turnover (%),FFC Alpha (bps/mo),Alpha t-stat,N months,Avg firms
+Binary PEAD L/S,11.96,10.99,5.75,1.851,1.61,0.0,181.4,1.38,13,1978
+Quintile Q5-Q1 L/S,14.00,12.86,9.39,1.341,3.62,0.0,236.4,1.06,13,828
+PEAD Small-Cap L/S,18.53,16.99,6.62,2.417,1.91,0.0,255.1,1.59,13,951
+PEAD Large-Cap L/S,3.73,3.44,4.41,0.790,3.04,0.0,113.8,1.25,13,1008
+Factor-Aware PEAD (FFC residual),5.21,4.80,4.64,1.035,2.60,0.0,153.6,1.79,13,2290
+Decay-Weighted PEAD,7.05,12.39,5.26,2.258,0.36,0.0,344.5,2.88,7,2185
