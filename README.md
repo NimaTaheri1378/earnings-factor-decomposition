@@ -42,6 +42,47 @@ This project replicates and extends [Ball & Brown (1968)](https://doi.org/10.230
 
 *Consistent with [Hong, Lim & Stein (2000)](https://doi.org/10.1111/0022-1082.00206) limited-attention hypothesis.*
 
+### Single-year strategies (FY2023, 12-month hold)
+
+| Strategy | Cum. Return | Ann. Return | Sharpe | FFC Alpha (bps/mo) | t-stat | Firms |
+|---|---|---|---|---|---|---|
+| Binary PEAD L/S | 11.96% | 10.99% | 1.85 | 181.4 | 1.38 | 1,978 |
+| Quintile Q5−Q1 | 14.00% | 12.86% | 1.34 | 236.4 | 1.06 | 828 |
+| **Decile D10−D1** | **19.87%** | — | **1.53** | **316.0** | 1.09 | 414 |
+| Small-Cap PEAD | 18.53% | 16.99% | 2.42 | 255.1 | 1.59 | 951 |
+| Large-Cap PEAD | 3.73% | 3.44% | 0.79 | 113.8 | 1.25 | 1,008 |
+| Factor-Aware (FFC residual) | 5.21% | 4.80% | 1.04 | 153.6 | 1.79 | 2,290 |
+| Decay-Weighted | 7.05% | 12.39% | 2.26 | 344.5 | 2.88 | 2,185 |
+
+*Single-year alphas have low power (13 observations, 5 parameters). See pooled results below for proper inference.*
+
+### Pooled calendar-time strategies (FY2016–2023)
+
+| Strategy | Months | Avg Monthly | Ann. Sharpe | FFC Alpha (bps/mo) | t-stat | p-value |
+|---|---|---|---|---|---|---|
+| **Binary L/S** | 60 | 0.73% | **1.75** | **69.0** | **3.97** | **<0.001** |
+| **Decile D10−D1** | 60 | 1.11% | **1.62** | **103.9** | **3.73** | **<0.001** |
+
+Factor loadings (pooled binary): MKT β = 0.015, SMB = −0.200, HML = 0.012, UMD = 0.010 — near-zero market exposure, slight large-cap tilt, no value or momentum harvesting.
+
+*The significant pooled alpha (t > 3.7) contrasts with the 77–97% attenuation of the raw spread, suggesting a small but real residual of ~69–104 bps/month survives comprehensive factor adjustment. This residual concentrates in small caps and is consistent with limited-attention theories rather than risk compensation.*
+
+### Transaction costs (FY2023)
+
+| Size Group | Median Eff. Spread (bps) | Mean (bps) |
+|---|---|---|
+| Large cap | 4.5 | 6.5 |
+| Small cap | 12.1 | 25.4 |
+
+| Metric | Gross | Net of TC |
+|---|---|---|
+| Cumulative Return | 11.96% | 7.57% |
+| Sharpe | 1.85 | 1.20 |
+| Breakeven spread | 2,216 bps | — |
+| Actual median spread | 7.7 bps | — |
+
+*Strategy survives transaction costs with wide margin. Spreads from WRDS Intraday Indicators (`taqmsec.wrds_iid`), measuring Lee-Ready effective spreads.*
+
 ### Transaction costs
 
 Median effective spread from TAQ intraday indicators (`taqmsec.wrds_iid`):
