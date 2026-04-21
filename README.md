@@ -197,11 +197,15 @@ All data from [WRDS](https://wrds-www.wharton.upenn.edu/):
 ```bash
 # In Google Colab:
 !pip install wrds statsmodels scipy -q
-%run /content/drive/MyDrive/Suresh1.github/run_all.py
+!git clone https://github.com/NimaTaheri1378/earnings-factor-decomposition.git
+%cd earnings-factor-decomposition
+%run run_all.py
 ```
 
 Or locally:
 ```bash
+git clone https://github.com/NimaTaheri1378/earnings-factor-decomposition.git
+cd earnings-factor-decomposition
 pip install -r requirements.txt
 export EFD_BASE_DIR=./output
 python run_all.py
