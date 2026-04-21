@@ -193,12 +193,15 @@ All data from [WRDS](https://wrds-www.wharton.upenn.edu/):
 ```
 
 ## Quick start
-
+**Requires a [WRDS account](https://wrds-www.wharton.upenn.edu/).**
 ```bash
 # In Google Colab:
 !pip install wrds statsmodels scipy -q
 !git clone https://github.com/NimaTaheri1378/earnings-factor-decomposition.git
 %cd earnings-factor-decomposition
+import os, getpass
+os.environ['WRDS_USERNAME'] = 'your_wrds_username'
+os.environ['WRDS_PASSWORD'] = getpass.getpass('WRDS Password: ')
 %run run_all.py
 ```
 
