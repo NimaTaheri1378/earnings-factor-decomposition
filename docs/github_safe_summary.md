@@ -1,4 +1,4 @@
-# Research Summary
+# GitHub-Safe Project Summary
 
 ## Project overview
 
@@ -33,6 +33,9 @@ The FF5+Momentum decomposition sharpens the interpretation. In the announcement 
 
 The findings suggest that researchers and practitioners should not treat all earnings-surprise-related return continuation as residual information inefficiency. The evidence supports a more nuanced view: earnings announcements themselves generate strong residual information reactions, but longer-horizon drift is substantially weaker once expected-return components are isolated.
 
-## Repository presentation
+## Why this repository is public-safe
 
-The repository is organized as a public research showcase: polished figures, a compact research abstract, reader-facing result summaries, and implementation modules from the empirical workflow. Proprietary WRDS source data are not included.
+- It contains polished, browser-friendly SVG figures.
+- It reports reader-facing summary statistics and findings without exposing proprietary raw data.
+- It is suitable for showing research communication, event-study design, empirical finance workflow, and figure presentation.
+- It avoids private review files and journal-only submission materials.

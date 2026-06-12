@@ -1,17 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-  <title id="title">Visual abstract: residual information in earnings announcements</title>
-  <desc id="desc">A four-panel visual abstract showing the sample size, announcement-window spread, post-announcement drift after factor adjustment, and the FF5 plus momentum decomposition.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f8fbff"/><stop offset="100%" stop-color="#eef4ff"/></linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.10"/></filter>
-    <style>.title{font:700 34px Arial,sans-serif;fill:#0f172a}.subtitle{font:400 18px Arial,sans-serif;fill:#475569}.cardTitle{font:700 20px Arial,sans-serif;fill:#0f172a}.big{font:700 40px Arial,sans-serif;fill:#0b3b8c}.body{font:400 17px Arial,sans-serif;fill:#334155}.small{font:400 15px Arial,sans-serif;fill:#64748b}</style>
-  </defs>
-  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
-  <text x="60" y="76" class="title">Residual Information in Earnings Announcements</text>
-  <text x="60" y="108" class="subtitle">Public research companion based on the final empirical tables</text>
-  <g filter="url(#shadow)"><rect x="60" y="150" width="500" height="220" rx="24" fill="#ffffff"/><rect x="640" y="150" width="500" height="220" rx="24" fill="#ffffff"/><rect x="60" y="410" width="500" height="220" rx="24" fill="#ffffff"/><rect x="640" y="410" width="500" height="220" rx="24" fill="#ffffff"/></g>
-  <g><text x="92" y="190" class="cardTitle">Sample</text><text x="92" y="244" class="big">238,529</text><text x="92" y="274" class="body">clean U.S. earnings-announcement events</text><text x="92" y="308" class="body">2000–2024 · 8,260 PERMNOs · 8,155 I/B/E/S tickers</text><text x="92" y="344" class="small">Built from 501,536 initial I/B/E/S actual EPS announcements.</text></g>
-  <g><text x="672" y="190" class="cardTitle">Announcement window [−1,+1]</text><text x="672" y="242" class="body">Q5−Q1 spreads remain large after factor adjustment:</text><text x="672" y="290" class="big">6.33 · 6.28 · 6.25 pp</text><text x="672" y="322" class="body">Raw CAR · Market-adjusted CAR · FF5+Momentum AR</text><text x="672" y="356" class="small">Immediate earnings-news reactions are overwhelmingly residual.</text></g>
-  <g><text x="92" y="450" class="cardTitle">Post-announcement drift [+2,+60]</text><text x="92" y="502" class="body">Raw and market-adjusted spreads remain positive:</text><text x="92" y="546" class="big">1.92 · 1.90 pp</text><text x="92" y="578" class="body">But the FF5+Momentum residual spread is</text><text x="92" y="618" class="big" fill="#8b1e3f">−0.08 pp</text></g>
-  <g><text x="672" y="450" class="cardTitle">FF5+Momentum decomposition</text><text x="672" y="494" class="body">Announcement raw spread: 6.42 pp</text><rect x="672" y="520" width="18" height="18" fill="#93c5fd" rx="4"/><text x="700" y="535" class="body">Factor exposure: 0.10 pp</text><rect x="672" y="552" width="18" height="18" fill="#fdba74" rx="4"/><text x="700" y="567" class="body">Alpha/intercept: 0.07 pp</text><rect x="672" y="584" width="18" height="18" fill="#2563eb" rx="4"/><text x="700" y="599" class="body">Residual AR: 6.25 pp (97.4%)</text><text x="672" y="626" class="small">In the 60-day PEAD window, residual AR is negative and insignificant.</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title">
+<title id="title">Residual Information in Earnings Announcements</title>
+<defs>
+<style>
+.bg{fill:#ffffff}
+.title{font:700 40px Arial,sans-serif;fill:#111827}
+.card-title{font:700 22px Arial,sans-serif;fill:#111827}
+.big{font:700 46px Arial,sans-serif;fill:#14284B}
+.med{font:500 22px Arial,sans-serif;fill:#334155}
+.small{font:500 20px Arial,sans-serif;fill:#5B677A}
+</style>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+<feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.10"/>
+</filter>
+</defs>
+<rect class="bg" width="1400" height="760"/>
+<text x="70" y="80" class="title">Residual Information in Earnings Announcements</text>
+
+<g filter="url(#shadow)">
+<rect x="70" y="135" width="570" height="210" rx="26" fill="#F8FAFD" stroke="#D7E0EC"/>
+<rect x="760" y="135" width="570" height="210" rx="26" fill="#F8FAFD" stroke="#D7E0EC"/>
+<rect x="70" y="415" width="570" height="210" rx="26" fill="#F8FAFD" stroke="#D7E0EC"/>
+<rect x="760" y="415" width="570" height="210" rx="26" fill="#F8FAFD" stroke="#D7E0EC"/>
+</g>
+
+<text x="115" y="190" class="card-title">Final clean sample</text>
+<text x="115" y="258" class="big">238,529</text>
+<text x="115" y="304" class="small">earnings-announcement events</text>
+
+<text x="805" y="190" class="card-title">Announcement window [−1,+1]</text>
+<text x="805" y="258" class="big">6.25 pp</text>
+<text x="805" y="304" class="small">FF5+Momentum residual Q5−Q1 spread</text>
+
+<text x="115" y="470" class="card-title">Post-announcement drift [+2,+60]</text>
+<text x="115" y="538" class="big">−0.08 pp</text>
+<text x="115" y="584" class="small">FF5+Momentum residual Q5−Q1 spread</text>
+
+<text x="805" y="470" class="card-title">Decomposition result</text>
+<text x="805" y="538" class="big">97.4%</text>
+<text x="805" y="584" class="small">of the announcement raw spread is residual AR</text>
+
 </svg>

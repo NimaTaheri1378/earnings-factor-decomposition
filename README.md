@@ -14,15 +14,17 @@ The evidence points to a sharp distinction. Earnings announcements generate larg
 
 ## Main exhibits
 
-<table>
-<tr>
-<td width="50%"><img src="docs/figures/announcement_vs_pead.svg" alt="Announcement versus PEAD return spreads"/></td>
-<td width="50%"><img src="docs/figures/decomposition.svg" alt="FF5 plus momentum decomposition"/></td>
-</tr>
-<tr>
-<td colspan="2"><img src="docs/figures/sample_funnel.svg" alt="Sample construction funnel"/></td>
-</tr>
-</table>
+<p align="center">
+  <img src="docs/figures/announcement_vs_pead.svg" alt="Announcement versus PEAD return spreads" width="1000"/>
+</p>
+
+<p align="center">
+  <img src="docs/figures/decomposition.svg" alt="FF5 plus momentum decomposition" width="1000"/>
+</p>
+
+<p align="center">
+  <img src="docs/figures/sample_funnel.svg" alt="Sample construction funnel" width="1000"/>
+</p>
 
 ## Empirical design
 
