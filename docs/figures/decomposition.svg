@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">FF5 plus momentum decomposition</title>
+  <desc id="desc">A polished decomposition chart showing how raw Q5 minus Q1 spreads break into factor exposure, alpha/intercept, and residual abnormal return across event windows.</desc>
+  <defs>
+    <style>
+      .title{font:700 34px Arial,sans-serif; fill:#0f172a}
+      .subtitle{font:400 17px Arial,sans-serif; fill:#64748b}
+      .label{font:600 18px Arial,sans-serif; fill:#0f172a}
+      .note{font:400 15px Arial,sans-serif; fill:#475569}
+    </style>
+  </defs>
+  <rect width="1200" height="620" rx="24" fill="#fbfdff"/>
+  <text x="60" y="70" class="title">Decomposing raw spreads under FF5+Momentum</text>
+  <text x="60" y="102" class="subtitle">Components are Q5−Q1 percentage-point differences</text>
+  <rect x="60" y="145" width="1080" height="410" rx="20" fill="#ffffff" stroke="#e2e8f0"/>
+  <g transform="translate(120,210)">
+    <text x="0" y="-30" class="label">Announcement [−1,+1] · Raw spread = 6.42</text>
+    <rect x="0" y="0" width="18" height="48" rx="6" fill="#93c5fd"/>
+    <rect x="26" y="0" width="12" height="48" rx="6" fill="#fdba74"/>
+    <rect x="46" y="0" width="980" height="48" rx="6" fill="#2563eb"/>
+    <text x="0" y="82" class="note">Factor exposure 0.10</text>
+    <text x="220" y="82" class="note">Alpha/intercept 0.07</text>
+    <text x="510" y="82" class="note">Residual AR 6.25</text>
+  </g>
+  <g transform="translate(120,340)">
+    <text x="0" y="-30" class="label">PEAD [+2,+60] · Raw spread = 1.99</text>
+    <rect x="0" y="0" width="312" height="48" rx="6" fill="#93c5fd"/>
+    <rect x="320" y="0" width="712" height="48" rx="6" fill="#fdba74"/>
+    <rect x="1038" y="18" width="12" height="12" rx="4" fill="#b91c1c"/>
+    <text x="0" y="82" class="note">Factor exposure 0.63</text>
+    <text x="350" y="82" class="note">Alpha/intercept 1.44</text>
+    <text x="755" y="82" class="note">Residual AR −0.08</text>
+  </g>
+  <g transform="translate(120,470)">
+    <text x="0" y="-30" class="label">PEAD [+2,+252] · Raw spread = 6.96</text>
+    <rect x="0" y="0" width="182" height="48" rx="6" fill="#93c5fd"/>
+    <rect x="190" y="0" width="890" height="48" rx="6" fill="#fdba74"/>
+    <rect x="1088" y="18" width="16" height="12" rx="4" fill="#b91c1c"/>
+    <text x="0" y="82" class="note">Factor exposure 1.27</text>
+    <text x="280" y="82" class="note">Alpha/intercept 6.24</text>
+    <text x="710" y="82" class="note">Residual AR −0.55</text>
+  </g>
+</svg>
