@@ -1,35 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title">
-<title id="title">Sample construction and data-linking funnel</title>
-<defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title">
+<title id="title">Sample Construction</title>
+<rect width="1400" height="760" fill="#FFFFFF"/>
 <style>
-.title{font:700 38px Arial,sans-serif;fill:#111827}
-.stage{font:700 22px Arial,sans-serif;fill:#ffffff}
-.count{font:700 34px Arial,sans-serif;fill:#ffffff}
-.detail{font:600 19px Arial,sans-serif;fill:#ffffff}
+.title{font:700 42px Arial,sans-serif;fill:#111827}
+.sub{font:400 22px Arial,sans-serif;fill:#5B677A}
+.stage{font:700 22px Arial,sans-serif;fill:#111827}
+.barval{font:700 25px Arial,sans-serif;fill:#FFFFFF}
+.footer{font:700 25px Arial,sans-serif;fill:#14284B}
 </style>
-</defs>
-<rect width="1400" height="860" fill="#ffffff"/>
-<text x="70" y="80" class="title">Sample construction and data-linking funnel</text>
-
-<!-- funnel rows -->
-<polygon points="140,150 1260,150 1200,250 200,250" fill="#2F5BEA"/>
-<polygon points="210,285 1190,285 1130,385 270,385" fill="#3F78F2"/>
-<polygon points="280,420 1120,420 1060,520 340,520" fill="#20A8CC"/>
-<polygon points="350,555 1050,555 990,655 410,655" fill="#18AF9A"/>
-<polygon points="430,690 970,690 915,790 485,790" fill="#15A05A"/>
-
-<text x="700" y="190" class="stage" text-anchor="middle">I/B/E/S actual EPS announcements</text>
-<text x="700" y="230" class="count" text-anchor="middle">501,536</text>
-
-<text x="700" y="325" class="stage" text-anchor="middle">Matched to pre-announcement consensus</text>
-<text x="700" y="365" class="count" text-anchor="middle">411,325</text>
-
-<text x="700" y="460" class="stage" text-anchor="middle">Linked to CRSP PERMNO</text>
-<text x="700" y="500" class="count" text-anchor="middle">396,038</text>
-
-<text x="700" y="595" class="stage" text-anchor="middle">Mapped to CRSP and price-scaled SUE</text>
-<text x="700" y="635" class="count" text-anchor="middle">268,622</text>
-
-<text x="700" y="728" class="stage" text-anchor="middle">Final clean main sample</text>
-<text x="700" y="768" class="count" text-anchor="middle">238,529</text>
+<text x="700" y="72" text-anchor="middle" class="title">Sample Construction</text>
+<text x="700" y="114" text-anchor="middle" class="sub">From I/B/E/S announcements to final clean event sample</text>
+<text x="80" y="207" class="stage">I/B/E/S actual EPS announcements</text>
+<rect x="400" y="165" width="760.0" height="68" rx="15" fill="#2F5BEA"/>
+<text x="1135.0" y="208" text-anchor="end" class="barval">501,536</text>
+<text x="80" y="312" class="stage">Matched to pre-announcement consensus</text>
+<rect x="400" y="270" width="623.4" height="68" rx="15" fill="#3A74F2"/>
+<text x="998.4" y="313" text-anchor="end" class="barval">411,325</text>
+<text x="80" y="417" class="stage">Linked to CRSP PERMNO</text>
+<rect x="400" y="375" width="600.3" height="68" rx="15" fill="#24A7C8"/>
+<text x="975.3" y="418" text-anchor="end" class="barval">396,038</text>
+<text x="80" y="522" class="stage">Mapped to CRSP and price-scaled SUE</text>
+<rect x="400" y="480" width="407.2" height="68" rx="15" fill="#16A795"/>
+<text x="782.2" y="523" text-anchor="end" class="barval">268,622</text>
+<text x="80" y="627" class="stage">Final clean main sample</text>
+<rect x="400" y="585" width="361.4" height="68" rx="15" fill="#15A05A"/>
+<text x="736.4" y="628" text-anchor="end" class="barval">238,529</text>
+<text x="700" y="705" text-anchor="middle" class="footer">Final clean sample: 238,529 events · 8,260 PERMNOs · 8,155 I/B/E/S tickers</text>
 </svg>
