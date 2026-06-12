@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Sample construction funnel</title>
+  <desc id="desc">A refined funnel graphic showing the progression from all I/B/E/S actual EPS announcements to the final clean main sample.</desc>
+  <defs>
+    <style>
+      .title{font:700 34px Arial,sans-serif; fill:#0f172a}
+      .subtitle{font:400 17px Arial,sans-serif; fill:#64748b}
+      .stage{font:700 18px Arial,sans-serif; fill:#ffffff}
+      .count{font:700 30px Arial,sans-serif; fill:#ffffff}
+      .side{font:400 16px Arial,sans-serif; fill:#334155}
+    </style>
+    <linearGradient id="funnel1" x1="0" x2="1"><stop offset="0%" stop-color="#1d4ed8"/><stop offset="100%" stop-color="#2563eb"/></linearGradient>
+    <linearGradient id="funnel2" x1="0" x2="1"><stop offset="0%" stop-color="#2563eb"/><stop offset="100%" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="funnel3" x1="0" x2="1"><stop offset="0%" stop-color="#0891b2"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="funnel4" x1="0" x2="1"><stop offset="0%" stop-color="#0f766e"/><stop offset="100%" stop-color="#14b8a6"/></linearGradient>
+    <linearGradient id="funnel5" x1="0" x2="1"><stop offset="0%" stop-color="#15803d"/><stop offset="100%" stop-color="#22c55e"/></linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="24" fill="#fcfdff"/>
+  <text x="60" y="70" class="title">Sample construction and data-linking waterfall</text>
+  <text x="60" y="102" class="subtitle">Final clean main sample drawn from U.S. earnings announcements, 2000–2024</text>
+  <polygon points="120,160 1080,160 980,250 220,250" fill="url(#funnel1)"/>
+  <polygon points="220,275 980,275 910,360 290,360" fill="url(#funnel2)"/>
+  <polygon points="290,385 910,385 850,470 350,470" fill="url(#funnel3)"/>
+  <polygon points="350,495 850,495 800,580 400,580" fill="url(#funnel4)"/>
+  <polygon points="400,605 800,605 760,660 440,660" fill="url(#funnel5)"/>
+  <text x="430" y="205" class="stage">I/B/E/S actual EPS announcements</text>
+  <text x="510" y="235" class="count">501,536</text>
+  <text x="425" y="322" class="stage">Matched to pre-announcement consensus</text>
+  <text x="515" y="352" class="count">411,325</text>
+  <text x="470" y="432" class="stage">Linked to CRSP PERMNO</text>
+  <text x="525" y="462" class="count">396,038</text>
+  <text x="430" y="542" class="stage">Mapped to CRSP and price-scaled SUE</text>
+  <text x="515" y="572" class="count">268,622</text>
+  <text x="495" y="637" class="stage">Final clean main sample</text>
+  <text x="520" y="662" class="count">238,529</text>
+  <text x="70" y="640" class="side">Final clean sample coverage:</text>
+  <text x="70" y="665" class="side">8,260 PERMNOs · 8,155 I/B/E/S tickers · event dates through 2024-12-23</text>
+</svg>
