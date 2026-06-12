@@ -1,0 +1,9 @@
+# Abstract
+
+This study examines whether return spreads around earnings announcements represent residual information reactions or compensation for expected-return components. The empirical design links I/B/E/S earnings announcements and analyst forecasts to CRSP, Compustat, and Fama--French factor data, forms annual price-scaled analyst-SUE quintiles, computes event-window returns, and decomposes raw Q5--Q1 spreads into factor-exposure, alpha/intercept, and residual abnormal-return components under an FF5+Momentum framework.
+
+The paper reevaluates the interpretation of post-earnings-announcement drift by separating immediate announcement effects from subsequent drift. The goal is to determine whether the return continuation documented in raw and market-adjusted specifications remains present after event-level expected-return components are isolated.
+
+Using 238,529 clean U.S. earnings-announcement events from 2000 to 2024, the announcement-window Q5--Q1 spread is 6.33 percentage points in raw returns, 6.28 percentage points in market-adjusted returns, and 6.25 percentage points in FF5+Momentum abnormal returns. By contrast, the 60-day post-announcement raw spread is 1.92 percentage points, but the FF5+Momentum residual component is -0.08 percentage points and statistically insignificant. The decomposition shows that 97.4 percent of the announcement-window raw spread is residual abnormal return.
+
+The contribution is to show that earnings-announcement returns and post-announcement drift have different economic content. The immediate response to earnings news is largely residual information processing, whereas much of the longer-horizon drift is absorbed by factor exposure and alpha/intercept components. This distinction refines the interpretation of PEAD and clarifies where economically meaningful abnormal performance remains.
