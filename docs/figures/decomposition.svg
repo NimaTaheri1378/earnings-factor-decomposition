@@ -1,61 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title">
-<title id="title">FF5 plus momentum decomposition of Q5 minus Q1 spreads</title>
-<defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700" role="img" aria-labelledby="title">
+<title id="title">FF5+Momentum Decomposition</title>
+<rect width="1400" height="700" fill="#FFFFFF"/>
 <style>
-.title{font:700 38px Arial,sans-serif;fill:#111827}
-.head{font:700 21px Arial,sans-serif;fill:#111827}
+.title{font:700 42px Arial,sans-serif;fill:#111827}
+.sub{font:400 22px Arial,sans-serif;fill:#5B677A}
+.head{font:700 21px Arial,sans-serif;fill:#FFFFFF}
 .window{font:700 22px Arial,sans-serif;fill:#111827}
-.label{font:600 17px Arial,sans-serif;fill:#64748B}
-.big{font:700 30px Arial,sans-serif;fill:#111827}
-.neg{font:700 30px Arial,sans-serif;fill:#B42323}
+.num{font:700 28px Arial,sans-serif;fill:#111827}
 </style>
-<filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-<feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.08"/>
-</filter>
-</defs>
-<rect width="1400" height="860" fill="#ffffff"/>
-<text x="70" y="78" class="title">FF5+Momentum decomposition of Q5−Q1 spreads</text>
-
-<!-- column headers -->
-<text x="90" y="150" class="head">Window</text>
-<text x="405" y="150" class="head" text-anchor="middle">Raw spread</text>
-<text x="620" y="150" class="head" text-anchor="middle">Factor exposure</text>
-<text x="845" y="150" class="head" text-anchor="middle">Alpha/intercept</text>
-<text x="1075" y="150" class="head" text-anchor="middle">Residual AR</text>
-<text x="1280" y="150" class="head" text-anchor="middle">Residual share</text>
-
-<!-- rows background -->
-<g filter="url(#shadow)">
-<rect x="60" y="175" width="1280" height="165" rx="24" fill="#F8FAFD" stroke="#D7E0EC"/>
-<rect x="60" y="365" width="1280" height="165" rx="24" fill="#F8FAFD" stroke="#D7E0EC"/>
-<rect x="60" y="555" width="1280" height="165" rx="24" fill="#F8FAFD" stroke="#D7E0EC"/>
-</g>
-
-<!-- row 1 -->
-<text x="90" y="245" class="window">Announcement</text>
-<text x="90" y="280" class="label">[−1,+1]</text>
-<text x="405" y="262" class="big" text-anchor="middle">6.42</text>
-<rect x="560" y="220" width="120" height="70" rx="16" fill="#D7E9FF"/><text x="620" y="263" class="big" text-anchor="middle">0.10</text>
-<rect x="785" y="220" width="120" height="70" rx="16" fill="#FFE2B8"/><text x="845" y="263" class="big" text-anchor="middle">0.07</text>
-<rect x="1015" y="220" width="120" height="70" rx="16" fill="#DDF7E8"/><text x="1075" y="263" class="big" text-anchor="middle">6.25</text>
-<text x="1280" y="262" class="big" text-anchor="middle">97.4%</text>
-
-<!-- row 2 -->
-<text x="90" y="435" class="window">60-day PEAD</text>
-<text x="90" y="470" class="label">[+2,+60]</text>
-<text x="405" y="452" class="big" text-anchor="middle">1.99</text>
-<rect x="560" y="410" width="120" height="70" rx="16" fill="#D7E9FF"/><text x="620" y="453" class="big" text-anchor="middle">0.63</text>
-<rect x="785" y="410" width="120" height="70" rx="16" fill="#FFE2B8"/><text x="845" y="453" class="big" text-anchor="middle">1.44</text>
-<rect x="1015" y="410" width="120" height="70" rx="16" fill="#FFE6E6"/><text x="1075" y="453" class="neg" text-anchor="middle">−0.08</text>
-<text x="1280" y="452" class="neg" text-anchor="middle">−3.9%</text>
-
-<!-- row 3 -->
-<text x="90" y="625" class="window">252-day PEAD</text>
-<text x="90" y="660" class="label">[+2,+252]</text>
-<text x="405" y="642" class="big" text-anchor="middle">6.96</text>
-<rect x="560" y="600" width="120" height="70" rx="16" fill="#D7E9FF"/><text x="620" y="643" class="big" text-anchor="middle">1.27</text>
-<rect x="785" y="600" width="120" height="70" rx="16" fill="#FFE2B8"/><text x="845" y="643" class="big" text-anchor="middle">6.24</text>
-<rect x="1015" y="600" width="120" height="70" rx="16" fill="#FFE6E6"/><text x="1075" y="643" class="neg" text-anchor="middle">−0.55</text>
-<text x="1280" y="642" class="neg" text-anchor="middle">−7.9%</text>
-
+<text x="700" y="70" text-anchor="middle" class="title">FF5+Momentum Decomposition of Q5−Q1 Spreads</text>
+<text x="700" y="112" text-anchor="middle" class="sub">Components are percentage-point differences</text>
+<rect x="90" y="150" width="330" height="58" rx="10" fill="#14284B"/><text x="255.0" y="187" text-anchor="middle" class="head">Window</text>
+<rect x="460" y="150" width="140" height="58" rx="10" fill="#14284B"/><text x="530.0" y="187" text-anchor="middle" class="head">Raw</text>
+<rect x="650" y="150" width="140" height="58" rx="10" fill="#14284B"/><text x="720.0" y="187" text-anchor="middle" class="head">Factor</text>
+<rect x="830" y="150" width="140" height="58" rx="10" fill="#14284B"/><text x="900.0" y="187" text-anchor="middle" class="head">Alpha</text>
+<rect x="1020" y="150" width="150" height="58" rx="10" fill="#14284B"/><text x="1095.0" y="187" text-anchor="middle" class="head">Residual</text>
+<rect x="1200" y="150" width="150" height="58" rx="10" fill="#14284B"/><text x="1275.0" y="187" text-anchor="middle" class="head">Share</text>
+<rect x="90" y="230" width="330" height="86" rx="12" fill="#F8FAFD" stroke="#D7E0EC" stroke-width="1.5"/><text x="114" y="284" class="window">Announcement [−1,+1]</text>
+<rect x="460" y="230" width="140" height="86" rx="12" fill="#EFF6FF" stroke="#D7E0EC" stroke-width="1.5"/><text x="530.0" y="284" text-anchor="middle" class="num">6.42</text>
+<rect x="650" y="230" width="140" height="86" rx="12" fill="#FFF7ED" stroke="#D7E0EC" stroke-width="1.5"/><text x="720.0" y="284" text-anchor="middle" class="num">0.10</text>
+<rect x="830" y="230" width="140" height="86" rx="12" fill="#FFF7ED" stroke="#D7E0EC" stroke-width="1.5"/><text x="900.0" y="284" text-anchor="middle" class="num">0.07</text>
+<rect x="1020" y="230" width="150" height="86" rx="12" fill="#ECFDF5" stroke="#D7E0EC" stroke-width="1.5"/><text x="1095.0" y="284" text-anchor="middle" class="num">6.25</text>
+<rect x="1200" y="230" width="150" height="86" rx="12" fill="#F8FAFD" stroke="#D7E0EC" stroke-width="1.5"/><text x="1275.0" y="284" text-anchor="middle" class="num">97.4%</text>
+<rect x="90" y="360" width="330" height="86" rx="12" fill="#F8FAFD" stroke="#D7E0EC" stroke-width="1.5"/><text x="114" y="414" class="window">PEAD [+2,+60]</text>
+<rect x="460" y="360" width="140" height="86" rx="12" fill="#EFF6FF" stroke="#D7E0EC" stroke-width="1.5"/><text x="530.0" y="414" text-anchor="middle" class="num">1.99</text>
+<rect x="650" y="360" width="140" height="86" rx="12" fill="#FFF7ED" stroke="#D7E0EC" stroke-width="1.5"/><text x="720.0" y="414" text-anchor="middle" class="num">0.63</text>
+<rect x="830" y="360" width="140" height="86" rx="12" fill="#FFF7ED" stroke="#D7E0EC" stroke-width="1.5"/><text x="900.0" y="414" text-anchor="middle" class="num">1.44</text>
+<rect x="1020" y="360" width="150" height="86" rx="12" fill="#FEF2F2" stroke="#D7E0EC" stroke-width="1.5"/><text x="1095.0" y="414" text-anchor="middle" class="num">−0.08</text>
+<rect x="1200" y="360" width="150" height="86" rx="12" fill="#F8FAFD" stroke="#D7E0EC" stroke-width="1.5"/><text x="1275.0" y="414" text-anchor="middle" class="num">−3.9%</text>
+<rect x="90" y="490" width="330" height="86" rx="12" fill="#F8FAFD" stroke="#D7E0EC" stroke-width="1.5"/><text x="114" y="544" class="window">PEAD [+2,+252]</text>
+<rect x="460" y="490" width="140" height="86" rx="12" fill="#EFF6FF" stroke="#D7E0EC" stroke-width="1.5"/><text x="530.0" y="544" text-anchor="middle" class="num">6.96</text>
+<rect x="650" y="490" width="140" height="86" rx="12" fill="#FFF7ED" stroke="#D7E0EC" stroke-width="1.5"/><text x="720.0" y="544" text-anchor="middle" class="num">1.27</text>
+<rect x="830" y="490" width="140" height="86" rx="12" fill="#FFF7ED" stroke="#D7E0EC" stroke-width="1.5"/><text x="900.0" y="544" text-anchor="middle" class="num">6.24</text>
+<rect x="1020" y="490" width="150" height="86" rx="12" fill="#FEF2F2" stroke="#D7E0EC" stroke-width="1.5"/><text x="1095.0" y="544" text-anchor="middle" class="num">−0.55</text>
+<rect x="1200" y="490" width="150" height="86" rx="12" fill="#F8FAFD" stroke="#D7E0EC" stroke-width="1.5"/><text x="1275.0" y="544" text-anchor="middle" class="num">−7.9%</text>
 </svg>
