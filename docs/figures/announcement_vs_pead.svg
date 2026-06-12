@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Announcement versus PEAD return spreads</title>
+  <desc id="desc">A clean side-by-side comparison of Q5 minus Q1 spreads across raw, market-adjusted, and FF5 plus momentum abnormal returns for the announcement window and the 60-day PEAD window.</desc>
+  <defs>
+    <style>
+      .title{font:700 34px Arial,sans-serif; fill:#0f172a}
+      .subtitle{font:400 17px Arial,sans-serif; fill:#64748b}
+      .axis{font:600 16px Arial,sans-serif; fill:#334155}
+      .label{font:600 18px Arial,sans-serif; fill:#0f172a}
+      .val{font:700 24px Arial,sans-serif; fill:#0f172a}
+      .note{font:400 15px Arial,sans-serif; fill:#475569}
+    </style>
+  </defs>
+  <rect width="1200" height="640" rx="24" fill="#fcfdff"/>
+  <text x="60" y="70" class="title">Announcement effects persist; residual PEAD does not</text>
+  <text x="60" y="102" class="subtitle">Q5−Q1 spreads in percentage points</text>
+  <line x1="130" y1="530" x2="1090" y2="530" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="130" y1="170" x2="130" y2="530" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="90" y="535" class="axis">0</text>
+  <text x="76" y="425" class="axis">2</text>
+  <text x="76" y="315" class="axis">4</text>
+  <text x="76" y="205" class="axis">6</text>
+  <line x1="125" y1="420" x2="1090" y2="420" stroke="#e2e8f0" stroke-dasharray="4 8"/>
+  <line x1="125" y1="310" x2="1090" y2="310" stroke="#e2e8f0" stroke-dasharray="4 8"/>
+  <line x1="125" y1="200" x2="1090" y2="200" stroke="#e2e8f0" stroke-dasharray="4 8"/>
+  <text x="230" y="145" class="label">Announcement [−1,+1]</text>
+  <rect x="210" y="182" width="110" height="348" rx="10" fill="#1d4ed8"/>
+  <rect x="355" y="185" width="110" height="345" rx="10" fill="#60a5fa"/>
+  <rect x="500" y="187" width="110" height="343" rx="10" fill="#0f766e"/>
+  <text x="235" y="175" class="val">6.33</text>
+  <text x="380" y="178" class="val">6.28</text>
+  <text x="525" y="180" class="val">6.25</text>
+  <text x="220" y="560" class="note">Raw</text>
+  <text x="342" y="560" class="note">Market-adjusted</text>
+  <text x="523" y="560" class="note">FF5+Mom AR</text>
+  <text x="760" y="145" class="label">PEAD [+2,+60]</text>
+  <rect x="740" y="425" width="110" height="105" rx="10" fill="#1d4ed8"/>
+  <rect x="885" y="426" width="110" height="104" rx="10" fill="#60a5fa"/>
+  <rect x="1030" y="530" width="110" height="4" rx="2" fill="#b91c1c"/>
+  <text x="762" y="418" class="val">1.92</text>
+  <text x="907" y="419" class="val">1.90</text>
+  <text x="1022" y="575" class="val" fill="#b91c1c">−0.08</text>
+  <text x="755" y="560" class="note">Raw</text>
+  <text x="875" y="560" class="note">Market-adjusted</text>
+  <text x="1048" y="560" class="note">FF5+Mom AR</text>
+  <text x="60" y="610" class="note">Source: final clustered-spread manuscript table. Standard errors are clustered two ways by firm and event date.</text>
+</svg>
