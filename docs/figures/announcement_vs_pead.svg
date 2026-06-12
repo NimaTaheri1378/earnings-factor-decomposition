@@ -1,63 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title">
-<title id="title">Announcement effects persist; residual PEAD does not</title>
-<defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title">
+<title id="title">Announcement and PEAD Spreads</title>
+<rect width="1400" height="760" fill="#FFFFFF"/>
 <style>
-.title{font:700 38px Arial,sans-serif;fill:#111827}
-.axis{font:600 20px Arial,sans-serif;fill:#334155}
-.tick{font:500 18px Arial,sans-serif;fill:#64748B}
-.group{font:700 23px Arial,sans-serif;fill:#111827}
-.value{font:700 22px Arial,sans-serif;fill:#111827}
-.legend{font:600 19px Arial,sans-serif;fill:#334155}
+.title{font:700 42px Arial,sans-serif;fill:#111827}
+.axis{font:400 21px Arial,sans-serif;fill:#5B677A}
+.panel{font:700 26px Arial,sans-serif;fill:#111827}
+.tick{font:400 19px Arial,sans-serif;fill:#5B677A}
+.val{font:700 25px Arial,sans-serif;fill:#111827}
+.ylabel{font:400 24px Arial,sans-serif;fill:#111827}
 </style>
-</defs>
-<rect width="1400" height="820" fill="#ffffff"/>
-<text x="70" y="75" class="title">Announcement effects persist; residual PEAD does not</text>
-
-<!-- plot frame -->
-<g transform="translate(120,140)">
-<line x1="0" y1="560" x2="1180" y2="560" stroke="#334155" stroke-width="2"/>
-<line x1="0" y1="0" x2="0" y2="560" stroke="#CBD5E1" stroke-width="2"/>
-
-<!-- grid and ticks -->
-<g stroke="#D9E2EF" stroke-width="1.4">
-<line x1="0" y1="80" x2="1180" y2="80"/>
-<line x1="0" y1="240" x2="1180" y2="240"/>
-<line x1="0" y1="400" x2="1180" y2="400"/>
-</g>
-<text x="-48" y="565" class="tick">0</text>
-<text x="-48" y="405" class="tick">2</text>
-<text x="-48" y="245" class="tick">4</text>
-<text x="-48" y="85" class="tick">6</text>
-<text x="-90" y="305" class="axis" transform="rotate(-90 -90 305)">Q5 − Q1 spread (percentage points)</text>
-
-<!-- scale: y = 560 - value*80 -->
-<!-- Announcement bars -->
-<rect x="160" y="53.6" width="120" height="506.4" rx="10" fill="#2F5BEA"/>
-<rect x="320" y="57.6" width="120" height="502.4" rx="10" fill="#6EA8F7"/>
-<rect x="480" y="60.0" width="120" height="500.0" rx="10" fill="#0F7C74"/>
-<text x="220" y="38" class="value" text-anchor="middle">6.33</text>
-<text x="380" y="42" class="value" text-anchor="middle">6.28</text>
-<text x="540" y="44" class="value" text-anchor="middle">6.25</text>
-
-<!-- PEAD bars -->
-<rect x="760" y="406.4" width="120" height="153.6" rx="10" fill="#2F5BEA"/>
-<rect x="920" y="408.0" width="120" height="152.0" rx="10" fill="#6EA8F7"/>
-<rect x="1080" y="560" width="120" height="7" rx="4" fill="#C94141"/>
-<text x="820" y="390" class="value" text-anchor="middle">1.92</text>
-<text x="980" y="392" class="value" text-anchor="middle">1.90</text>
-<text x="1140" y="600" class="value" text-anchor="middle">−0.08</text>
-
-<!-- group labels -->
-<text x="380" y="640" class="group" text-anchor="middle">Announcement [−1,+1]</text>
-<text x="980" y="640" class="group" text-anchor="middle">PEAD [+2,+60]</text>
-
-<!-- bar labels -->
-<text x="220" y="595" class="tick" text-anchor="middle">Raw</text>
-<text x="380" y="595" class="tick" text-anchor="middle">Mkt-adj.</text>
-<text x="540" y="595" class="tick" text-anchor="middle">FF5+Mom</text>
-<text x="820" y="595" class="tick" text-anchor="middle">Raw</text>
-<text x="980" y="595" class="tick" text-anchor="middle">Mkt-adj.</text>
-<text x="1140" y="635" class="tick" text-anchor="middle">FF5+Mom</text>
-</g>
-
+<text x="700" y="70" text-anchor="middle" class="title">Announcement Effects Persist; Residual PEAD Does Not</text>
+<text x="700" y="118" text-anchor="middle" class="axis">Q5−Q1 spreads in percentage points</text>
+<line x1="140" y1="600.0" x2="1280" y2="600.0" stroke="#D9E2EF" stroke-width="2"/>
+<text x="105" y="608.0" class="axis">0</text>
+<line x1="140" y1="480.0" x2="1280" y2="480.0" stroke="#D9E2EF" stroke-width="2"/>
+<text x="105" y="488.0" class="axis">2</text>
+<line x1="140" y1="360.0" x2="1280" y2="360.0" stroke="#D9E2EF" stroke-width="2"/>
+<text x="105" y="368.0" class="axis">4</text>
+<line x1="140" y1="240.0" x2="1280" y2="240.0" stroke="#D9E2EF" stroke-width="2"/>
+<text x="105" y="248.0" class="axis">6</text>
+<line x1="140" y1="600" x2="1280" y2="600" stroke="#334155" stroke-width="2"/>
+<line x1="140" y1="180" x2="140" y2="600" stroke="#CBD5E1" stroke-width="2"/>
+<text x="430" y="158" text-anchor="middle" class="panel">Announcement [−1,+1]</text>
+<text x="1060" y="158" text-anchor="middle" class="panel">PEAD [+2,+60]</text>
+<rect x="245" y="220.2" width="105" height="379.8" rx="12" fill="#2F5BEA"/>
+<text x="297.5" y="202.2" text-anchor="middle" class="val">6.33</text>
+<text x="297.5" y="650" text-anchor="middle" class="tick">Raw</text>
+<rect x="400" y="223.2" width="105" height="376.8" rx="12" fill="#6AA4F6"/>
+<text x="452.5" y="205.2" text-anchor="middle" class="val">6.28</text>
+<text x="452.5" y="650" text-anchor="middle" class="tick">Market-adjusted</text>
+<rect x="555" y="225.0" width="105" height="375.0" rx="12" fill="#0F7C74"/>
+<text x="607.5" y="207.0" text-anchor="middle" class="val">6.25</text>
+<text x="607.5" y="650" text-anchor="middle" class="tick">FF5+Mom</text>
+<rect x="875" y="484.8" width="105" height="115.2" rx="12" fill="#2F5BEA"/>
+<text x="927.5" y="466.8" text-anchor="middle" class="val">1.92</text>
+<text x="927.5" y="650" text-anchor="middle" class="tick">Raw</text>
+<rect x="1030" y="486.0" width="105" height="114.0" rx="12" fill="#6AA4F6"/>
+<text x="1082.5" y="468.0" text-anchor="middle" class="val">1.90</text>
+<text x="1082.5" y="650" text-anchor="middle" class="tick">Market-adjusted</text>
+<rect x="1185" y="600.0" width="105" height="8" rx="12" fill="#0F7C74"/>
+<text x="1237.5" y="643.0" text-anchor="middle" class="val">−0.08</text>
+<text x="1237.5" y="675" text-anchor="middle" class="tick">FF5+Mom</text>
+<text x="52" y="390" transform="rotate(-90 52,390)" text-anchor="middle" class="ylabel">Q5−Q1 spread</text>
 </svg>
